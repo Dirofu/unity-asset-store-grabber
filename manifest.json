@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Unity Asset Store Grabber",
+  "version": "1.0.0",
+  "description": "One-click grab for free Unity Asset Store assets",
+  "permissions": ["activeTab"],
+  "host_permissions": ["https://assetstore.unity.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://assetstore.unity.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
