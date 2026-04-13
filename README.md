@@ -21,7 +21,13 @@
 ## Features
 
 - **One-click grab** — adds a `Grab` button to every free asset card on search/category pages
+
+https://github.com/user-attachments/assets/17b85a6e-9453-4990-9481-63b6f20f1362
+
 - **Grab All** — floating button to grab all visible free assets at once
+
+https://github.com/user-attachments/assets/f679633e-56d7-4d08-8e6a-044368cd1a85
+  
 - **Visual feedback** — button states: ready → loading → success / error
 - **SPA-aware** — works with pagination, filters, and navigation without page reload
 - **Lightweight** — no dependencies, pure vanilla JS, Manifest V3
